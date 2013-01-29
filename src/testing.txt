@@ -1,0 +1,52 @@
+"""
+-------------------------------------------------------
+Author:  Tyler Blakeley
+ID:      090603980
+Email:   blak3980@wlu.ca
+Version: 2013-01-28
+-------------------------------------------------------
+"""
+x=Stack()
+s=Stack()
+sp=Stack()
+s.push(9)
+s.push(7)
+s.push(5)
+s.push(3)
+s.push(1) 
+sp.push(14)
+sp.push(12)
+sp.push(10)
+sp.push(8)
+sp.push(6)
+sp.push(4)
+sp.push(2)
+combine_stacks(x,s,sp)
+x.combine(s,sp)
+x.print_i("r")
+
+RESULTS
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+12
+14
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+12
+14
